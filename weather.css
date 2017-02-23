@@ -1,0 +1,99 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: #308EB5;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10px;
+    background: #3DA9E1;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main {
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 0px;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    border: 2px solid white;
+    display: block;
+    font-size: 0;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+    border: 2px solid white;
+    font-size: 20px; /* возвращаем размер шрифта */
+    display: inline-block; /* позволяем vertical-align выравнивать себя по вертикали */
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle; /* и выравниваем */
+}
+
+ul:hover li:hover {
+    opacity: 1;
+}
+
+ul:hover li {
+    opacity: 0.5;
+}
+
+
+p {
+    margin: 0px;
+}
+
+.sizes {
+    width: 25%;
+}
+
+.sizem {
+    width: 50%;
+}
+
+.sizeb {
+    width: 100%;
+}
+
+.nice {
+    padding-top: 20px;
+    padding-bottom: 70px;
+    margin: 0px;
+    padding-left: 10%;
+    font-size: 16px;
+}
+
+li:nth-child(2)  { background-color: #55F1EA;}
+li:nth-child(3)  { background-color: #9C5DA8;}
+li:nth-child(4)  { background-color: #D11F38;}
+li:nth-child(5)  { background-color: #D13F1F;}
+li:nth-child(6)  { background-color: #F9C953;}
+li:nth-child(7)  { background-color: #A5E9B6;}
+li:nth-child(8)  { background-color: #7AB8A9;}
+li:nth-child(9)  { background-color: #EA81D1;}
+li:nth-child(10) { background-color: #16A756;}
+li:nth-child(11) { background-color: #7C5F9B;}
+
+*{transition: all .1s ease-in;}
